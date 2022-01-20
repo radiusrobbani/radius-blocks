@@ -1,0 +1,44 @@
+{
+	"name": "wp-blocks",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run development",
+		"development": "mix",
+		"watch": "mix watch",
+		"watch-poll": "mix watch -- --watch-options-poll=1000",
+		"hot": "mix watch --hot",
+		"prod": "npm run production",
+		"production": "mix --production",
+		"package": "npm run dev && npm run prod && cross-env NODE_ENV=package mix",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mahbubur001/wp-blocks.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mahbubur001/wp-blocks/issues"
+	},
+	"homepage": "https://github.com/mahbubur001/wp-blocks#readme",
+	"devDependencies": {
+		"@tinypixelco/laravel-mix-wp-blocks": "^1.1.0",
+		"@wordpress/babel-preset-default": "^6.3.4",
+		"@wordpress/dependency-extraction-webpack-plugin": "^3.2.1",
+		"cli-color": "^2.0.1",
+		"emojic": "^1.1.16",
+		"fs-extra": "^10.0.0",
+		"ignore-emit-webpack-plugin": "^2.0.6",
+		"laravel-mix": "^6.0.37",
+		"sass": "^1.43.4",
+		"sass-loader": "^12.1.0",
+		"wp-pot": "^1.9.9"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^5.2.4"
+	}
+}

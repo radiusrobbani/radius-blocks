@@ -1,0 +1,6 @@
+/vendor/
+build
+dist
+node_modules
+.idea
+_ext_wordpress

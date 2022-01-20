@@ -1,0 +1,15 @@
+{
+	"name": "rt/radius-blocks",
+	"autoload": {
+		"psr-4": {
+			"RT\\RadiusBlocks\\": "app/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Mahbubur Rahman",
+			"email": "mahbubur001@gmail.com"
+		}
+	],
+	"require": {}
+}

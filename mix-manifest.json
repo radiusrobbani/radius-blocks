@@ -1,0 +1,11 @@
+{
+    "/assets/js/admin.js": "/assets/js/admin.js",
+    "/assets/js/admin.asset.php": "/assets/js/admin.asset.php",
+    "/assets/js/deactivator.build.js": "/assets/js/deactivator.build.js",
+    "/assets/js/deactivator.build.asset.php": "/assets/js/deactivator.build.asset.php",
+    "/dist/blocks.build.js": "/dist/blocks.build.js",
+    "/dist/blocks.build.asset.php": "/dist/blocks.build.asset.php",
+    "/dist/frontend.js": "/dist/frontend.js",
+    "/dist/frontend.asset.php": "/dist/frontend.asset.php",
+    "/assets/css/admin.css": "/assets/css/admin.css"
+}
